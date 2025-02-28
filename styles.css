@@ -1,33 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "poppins", serif;
 }
 
-h2{
+h2 {
     color: #6070FF;
     font-weight: 700;
+    gap: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
 }
 
-header a{
+header a {
     text-decoration: none;
     padding: 7%;
 }
-header a:hover{
+
+header a:hover {
     background-color: bisque;
     border-radius: 50%;
     padding: 5%;
 }
-.home{
+.fa-bars {
+    color: #6070FF;
+}
+
+.home {
     background-image: url(./imagen/home.svg);
     background-repeat: no-repeat;
     width: 100vw;
@@ -40,38 +51,105 @@ header a:hover{
     gap: 1rem;
 }
 
-h1{
+h1 {
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 1.5;
     color: #172B4D;
 }
 
-.home p{
+h1:hover {
+font-size: 40%;
+cursor: pointer;
+}
+
+.home p {
     font-weight: 400;
     font-size: 1rem;
     color: #344563;
 }
-h3{
+h3 {
     font-weight: 700;
     color: #7F8CFF;
     font-size: 1rem;
 }
     
-.fa-brands{
+.fa-brands {
     color: #505F79;
     text-decoration: none;
+    font-size: large;
 }
-ul{
-    padding: 0;
+
+ul {
+    padding: 0px;
+    display: flex;
+    gap: 20px;
 }
-button{
+
+button {
     color: #fff;
     background-color: black;
     padding: 15px;
 }
-button:hover{
+
+button:hover {
     color:black;
     background-color: #7F8CFF;
     border: 1px solid black;
 }
+
+button::after {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+/*Proyectos*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+    font-family: "poppins", serif;
+    gap: 4%;
+  }
+  h1{
+    
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #6070FF;
+    background-color:#EBEBFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  ul {
+    color: #C1C7D0;
+    padding: 3px;
+    text-decoration: none;
+  }
+  .tecno {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+  }
+  .tecno button {
+    font-size: small;
+    border-radius: 8px;
+  }
+  .button {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4%;
+    color: rgb(247, 140, 247);
+  }
