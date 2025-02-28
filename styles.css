@@ -113,9 +113,6 @@ button::after {
     font-family: "poppins", serif;
     gap: 4%;
   }
-  h1{
-    
-  }
   .card button {
     border: none;
     outline: 0;
@@ -147,9 +144,25 @@ button::after {
     font-size: small;
     border-radius: 8px;
   }
-  .button {
-    display: flex;
-    justify-content: flex-start;
-    gap: 4%;
-    color: rgb(247, 140, 247);
+ .tecno button:hover {
+        background-color: #6070FF;
+        color: white;
+    }
+
+  .btn-proyect {
+    margin: 4% 0;
+    color: #396DF2;
+
   }
+
+  .sobre-mi {
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 87vh;
+    padding: 0 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
