@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 
 body{
     font-family: "poppins", serif;
@@ -12,18 +12,32 @@ h2{
     color: #6070FF;
     font-weight: 700;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
 
+header a{
+    text-decoration: none;
+    padding: 7%;
+}
+header a:hover{
+    background-color: bisque;
+    border-radius: 50%;
+    padding: 5%;
+}
 .home{
     background-image: url(./imagen/home.svg);
     background-repeat: no-repeat;
     width: 100vw;
     height: 87vh;
     padding: 0 1.2rem;
-    gap: 1rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 
 h1{
@@ -51,7 +65,13 @@ h3{
 ul{
     padding: 0;
 }
-
-
-
-
+button{
+    color: #fff;
+    background-color: black;
+    padding: 15px;
+}
+button:hover{
+    color:black;
+    background-color: #7F8CFF;
+    border: 1px solid black;
+}
