@@ -12,9 +12,15 @@
 </head>
 <body>
     <header>
-        <h2>My logo</h2>        
-        <a href="#" class="fa-solid fa-bars"></a>
-
+        <h2>logo</h2>        
+            <nav class="topnav" id="myTopnav">
+                <div class="nav-links">
+                    <a href="#proyectos" class="portfolio-link">Portfolio</a>
+                    <a href="#sobre-mi">Acerca de mi</a>
+                    <a href="#contactame">contactame</a>
+                 </div>
+              <a href="javascript:void(0);" class="icon fa fa-bars" onclick="myFunction()"></a>
+            </nav>
     </header>
     <main>
 
@@ -32,10 +38,15 @@
                 <a href="#" class="fa-brands fa-github"></a>
                 
             </ul>
-            <button> CONTACTAME </button>
+
         </section>
 
         <section class="proyectos">
+           
+        
+        </section>
+
+        <section class="proyectos" id="proyectos">
             <div class="card">
                 <img src="imagen/Snapshoot Portfolio (1).svg" alt="gato" style="width:100%">
                 <h1>Tonic</h1>
@@ -54,9 +65,7 @@
                    <button class="button btn-proyect" >see project</button>
                 </div>
             </div>
-        </section>
 
-        <section class="proyectos">
             <div class="card">
                 <img src="imagen/card 2.svg" alt="gato" style="width:100%">
                 <h1>Multi-Post
@@ -120,7 +129,7 @@
             </div>
         </section>
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <h1>About Myself<br>
                 Glad to see <br> you!</h1>
             <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -134,8 +143,49 @@
                 <a href="#" class="fa-brands fa-github"></a>
                 
             </ul>
-            <button> Get my resume </button>
         </section>
+        <section id="contactame"></section>
+
+        <section class="formulary" id="contact">
+            <div class="space"></div>
+            <div class="cont-form">
+              <div class="form-header">
+                <h2 class="getStar">Get started</h2>
+                <p class="textAbout">I will work with you to discover what you need and create the best solution. My
+                  priorities
+                  are delivering quality work and respect for deadlines. I love to share my enthusiasm and passion for
+                  design,
+                  so feel free to contact me.</p>
+              </div>
+              <form id="myForm" class="b" action="https://formspree.io/f/xnqrlgak" method="post" >
+                <div class="boxForm">
+                  <label class="form-name" for="name">
+                    Your name
+                    <input class="form-name-contend" type="text" id="name" name="user-name" maxlength="30" required>
+                  </label>
+                  <label class="form-name" for="email">
+                    <div class="alert">
+                      <p>Your email</p>
+                      <p class="error-message">Ups, use only lower case</p>
+                    </div>
+                    <input class="form-name-contend" type="email" id="email" name="user_email" required>
+                  </label>
+                  <label class="form-name-text">
+                    <textarea id="textform" class="form-text" name="user_message" placeholder="Enter your message here..."
+                      maxlength="500" required></textarea>
+                  </label>
+                </div>
+      
+                <div class="button botonform">
+                  <button class="blackBoton textBoton" type="submit">
+                    Star collaboration
+                  </button>
+                </div>
+      
+              </form>
+            </div>
+          </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
