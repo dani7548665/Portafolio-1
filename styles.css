@@ -1,169 +1,170 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "poppins", serif;
+    
+  font-family: "poppins", serif;
 }
 
 h2 {
-    color: #6070FF;
-    font-weight: 700;
-    gap: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  color: #6070FF;
+  font-weight: 700;
+  gap: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
 }
 
 header a {
-    text-decoration: none;
-    padding: 7%;
+  text-decoration: none;
+  padding: 7%;
 }
 
 header a:hover {
-    background-color: bisque;
-    border-radius: 50%;
-    padding: 5%;
+  background-color: bisque;
+  border-radius: 50%;
+  padding: 5%;
 }
 .fa-bars {
-    color: #6070FF;
+  color: #6070FF;
 }
 
 .home {
-    background-image: url(./imagen/home.svg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 87vh;
-    padding: 0 1.2rem;
+  background-image: url(./imagen/home.svg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 87vh;
+  padding: 0 1.2rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 h1 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #172B4D;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #172B4D;
 }
 
 h1:hover {
-font-size: 40%;
-cursor: pointer;
+  font-size: 40%;
+  cursor: pointer;
 }
 
 .home p {
-    font-weight: 400;
-    font-size: 1rem;
-    color: #344563;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #344563;
 }
 h3 {
-    font-weight: 700;
-    color: #7F8CFF;
-    font-size: 1rem;
+  font-weight: 700;
+  color: #7F8CFF;
+  font-size: 1rem;
 }
     
 .fa-brands {
-    color: #505F79;
-    text-decoration: none;
-    font-size: large;
+  color: #505F79;
+  text-decoration: none;
+  font-size: large;
 }
 
 ul {
-    padding: 0px;
-    display: flex;
-    gap: 20px;
+  padding: 0px;
+  display: flex;
+  gap: 20px;
 }
 
-
-
 button:hover {
-    color:black;
-    background-color: #7F8CFF;
-    border: 1px solid black;
+  color:black;
+  background-color: #7F8CFF;
+  border: 1px solid black;
 }
 
 button::after {
-    color: black;
-    background-color: #fff;
-    border: 1px solid black;
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
 }
 
 /*Proyectos*/
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: left;
-    font-family: "poppins", serif;
-    gap: 4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+  font-family: "poppins", serif;
+  gap: 4%;
   }
   .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: #6070FF;
-    background-color:#EBEBFF;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #6070FF;
+  background-color:#EBEBFF;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
     
-    text-decoration: none;
-    font-size: large;
+  text-decoration: none;
+  font-size: large;
   }
   
-  .card button:hover {
+.card button:hover {
     opacity: 0.7;
-  }
-  ul {
-    color: #344563;
-    padding: 3px;
-    text-decoration: none;
-    height: 12;
-    gap: 12px;
+}
 
-  }
-  .tecno {
-    display: flex;
-    justify-content: flex-start;
-    gap: 5%;
-  }
-  .tecno button {
-    font-size: small;
-    border-radius: 8px;
-  }
- .tecno button:hover {
-    background-color: #6070FF;
-    color: white;
-    }
+ul {
+  color: #344563;
+  padding: 3px;
+  text-decoration: none;
+  height: 12;
+  gap: 12px;
 
-  .btn-proyect {
-    margin: 4% 0;
-    color: #396DF2;
+}
+.tecno {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+}
+.tecno button {
+  font-size: small;
+  border-radius: 8px;
+}
 
-  }
+.tecno button:hover {
+  background-color: #6070FF;
+  color: white;
+}
 
-  .sobre-mi {
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 87vh;
-    padding: 0 1.2rem;
+.btn-proyect {
+  margin: 4% 0;
+  color: #396DF2;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+}
+
+.sobre-mi {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 87vh;
+  padding: 0 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
     
 }
 
